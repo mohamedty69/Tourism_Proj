@@ -1,0 +1,56 @@
+# Build results
+bin/
+obj/
+out/
+
+# Publish
+publish/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+
+# VS Code
+.vscode/
+
+# Rider
+.idea/
+
+# ASP.NET/Blazor publish output
+wwwroot/dist/
+wwwroot/node_modules/
+wwwroot/lib/
+node_modules/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+appsettings.Development.json
+appsettings.Local.json
+
+# Others
+*.vspscc
+*.vssscc
+_ReSharper*/
+*.resharper
+*.DotSettings.user
+
+# Auto-generated files
+Generated_Code/
