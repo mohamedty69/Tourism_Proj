@@ -3,22 +3,29 @@ bin/
 obj/
 out/
 
+# Publish
+publish/
+
 # User-specific files
 *.user
 *.suo
 *.userosscache
 *.sln.docstates
 
-# Visual Studio Code workspace settings
+# Visual Studio
+.vs/
+
+# VS Code
 .vscode/
 
-# Rider project files
+# Rider
 .idea/
 
 # ASP.NET/Blazor publish output
 wwwroot/dist/
 wwwroot/node_modules/
 wwwroot/lib/
+node_modules/
 
 # NuGet packages
 *.nupkg
@@ -35,6 +42,8 @@ Thumbs.db
 
 # Environment files
 .env
+appsettings.Development.json
+appsettings.Local.json
 
 # Others
 *.vspscc
