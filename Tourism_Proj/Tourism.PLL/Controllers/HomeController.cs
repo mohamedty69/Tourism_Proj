@@ -1,6 +1,6 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Tourism_Proj.Models;
+using Tourism_Proj.Tourism.PLL.Models;
 
 namespace Tourism_Proj.Tourism.PLL.Controllers
 {
